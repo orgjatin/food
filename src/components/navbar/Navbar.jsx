@@ -2,7 +2,7 @@ import { assets } from '../../assets/assets'
 import './Navbar.css'
 import React, {  useState } from 'react'
 
-const Navbar = () => {
+const Navbar = ({setShowLogin}) => {
     const [menu,setMenu] = useState("");
   return (
     <div className='navbar'>
@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="dot">
             </div>
         </div>
-        <button>Sign In</button>
+        <button onClick={()=>setShowLogin(true)}>Sign In</button>
         </div>
 
     </div>
