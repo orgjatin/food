@@ -7,7 +7,7 @@ const ExploreMenu = ({category,setCategory}) => {
     <div className='explore-menu' id='explore-menu'>
         <h1>Explore our menu</h1>
         <p className="explore-menu-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, optio, eaque magnam doloremque iure possimus ea ad blanditiis laudantium dolor cupiditate excepturi voluptatibus accusantium voluptates fugiat ducimus rerum dolorum saepe!
+        Planning a daily menu isn't difficult as long as each meal and snack has some protein, fiber, complex carbohydrates, and a little bit of fat. Food is what people, plants and animals eat to live. Every organism needs energy to carry on with the process of living which comes from food.
         </p>
         <div  className="explore-menu-list">
             {

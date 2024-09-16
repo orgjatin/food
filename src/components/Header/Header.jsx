@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <div className='header'>
         <div className="header-contents">
-            <h2>Order your favourite food here</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium odit molestiae dolore enim harum voluptate eius iusto, ratione quam a consequatur impedit itaque dolores consectetur repellat dolorem corrupti sint ex.</p>
+            <h2>Order Your Favourite Food Here</h2>
+            <p>Eating a wide variety of nutritious foods, including fruit, vegetables, nuts, seeds, and lean protein can help support your overall health.</p>
             <button>View Menu</button>
         </div>
     </div>
